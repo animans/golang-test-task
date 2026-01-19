@@ -1,4 +1,4 @@
-module github.com/animans/simple-rest-api-task
+module golang-test-task
 
 go 1.22
 

@@ -8,8 +8,8 @@ import (
 
 	_ "github.com/lib/pq"
 
-	apphttp "github.com/animans/simple-rest-api-task/internal/app/http"
-	"github.com/animans/simple-rest-api-task/internal/app/storage"
+	apphttp "golang-test-task/internal/app/http"
+	"golang-test-task/internal/app/storage"
 )
 
 func main() {

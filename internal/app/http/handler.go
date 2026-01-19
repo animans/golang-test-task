@@ -4,7 +4,7 @@ import (
 	"encoding/json"
 	"net/http"
 
-	"github.com/animans/simple-rest-api-task/internal/app/storage"
+	"golang-test-task/internal/app/storage"
 )
 
 type Handler struct {

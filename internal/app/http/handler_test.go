@@ -8,7 +8,7 @@ import (
 	"net/http/httptest"
 	"testing"
 
-	"github.com/animans/simple-rest-api-task/internal/app/storage"
+	"golang-test-task/internal/app/storage"
 )
 
 type mockRepo struct {
