@@ -1,10 +1,12 @@
-### Run
-make up
+## Run
+docker compose up --build
 
-### Test
-make test
+## Test
+go test ./... -v
 
-### Examples
-curl -X POST http://localhost:8080/numbers \
-  -H 'Content-Type: application/json' \
-  -d '{"value":3}'
+## API
+POST /numbers
+Body: {"value": 3}
+
+Examples:
+curl -X POST http://localhost:8080/numbers -H "Content-Type: application/json" -d '{"value":3}'
